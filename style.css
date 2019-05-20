@@ -20,18 +20,19 @@
   margin-left: 140px;
 }
 
-.navbar {
-  background: #44475a;
-}
-
-ul {
-  font-size: 10px;
-}
-
-a {
-  text-decoration: none;
-}
-
+a,
 a:hover {
   text-decoration: none;
+}
+
+.black {
+  background: black;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.blue {
+  background: blue;
 }
