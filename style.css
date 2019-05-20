@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  font-size: 12px;
+  background: #44475a;
+}
+
 .navbar-fixed-left {
   width: 140px;
   position: fixed;
@@ -7,11 +17,11 @@
 
 .navbar-fixed-left .navbar-nav > li {
   float: none; /* Cancel default li float: left */
-  width: 139px;
+  width: 120px;
 }
 
 .navbar-fixed-left + .container {
-  padding-left: 160px;
+  padding-left: 20px;
 }
 
 /* On using dropdown menu (To right shift popuped) */
@@ -19,14 +29,20 @@
   margin-top: -50px;
   margin-left: 140px;
 }
-
 a,
 a:hover {
   text-decoration: none;
 }
 
+.container {
+  width: 100vw;
+  position: relative;
+}
+
 .black {
-  background: black;
+  /* background: #ccc; */
+  width: 100%;
+  text-align: left;
 }
 
 .yellow {
