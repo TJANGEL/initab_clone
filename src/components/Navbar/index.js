@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-import { Z_UNKNOWN } from 'zlib';
 
 function Navbar() {
   return (
@@ -53,6 +52,26 @@ function Navbar() {
         <a className='navbar-brand' href='#'>
           Brand
         </a>
+        <li>
+          <a href='#' className='facebook'>
+            <i class='fab fa-facebook-f' />
+          </a>
+        </li>
+        <li>
+          <a href='#' className='linkedin'>
+            <i class='fab fa-linkedin-in' />
+          </a>
+        </li>
+        <li>
+          <a href='#' className='twitter'>
+            <i class='fab fa-twitter' />
+          </a>
+        </li>
+        <li>
+          <a href='#' className='reddit'>
+            <i class='fab fa-reddit-alien' />
+          </a>
+        </li>
       </ul>
     </div>
   );
