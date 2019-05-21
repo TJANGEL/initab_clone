@@ -3,10 +3,18 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
+  background: #343a40;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #6272a4;
+}
+
+.container {
+  width: 100%;
 }
 
 .navbar {
-  font-size: 12px;
+  font-size: 11px;
   background: #44475a;
 }
 
@@ -32,12 +40,19 @@ body {
   margin-left: 140px;
 }
 
+.nav li {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: -5px;
+}
+
 a,
 a:hover {
   text-decoration: none;
 }
 
-.settings {
+.settings,
+.settings:hover {
   color: #8be9fd;
 }
 .settings i {
@@ -48,10 +63,10 @@ a:hover {
   color: #44475a;
 }
 
-.gists {
+.gists,
+.gists:hover {
   color: #47e96d;
 }
-
 .gists i {
   background: #47e96d;
   font-size: 14px;
@@ -60,10 +75,10 @@ a:hover {
   color: #44475a;
 }
 
-.stackOverflow {
+.stackOverflow,
+.stackOverflow:hover {
   color: #ffc107;
 }
-
 .stackOverflow i {
   background: #ffc107;
   font-size: 14px;
@@ -72,10 +87,10 @@ a:hover {
   color: #44475a;
 }
 
-.trending {
+.trending,
+.trending:hover {
   color: #e83e8c;
 }
-
 .trending i {
   background: #e83e8c;
   font-size: 14px;
@@ -84,10 +99,10 @@ a:hover {
   color: #44475a;
 }
 
-.scratchPad {
+.scratchPad,
+.scratchPad:hover {
   color: #6f42c1;
 }
-
 .scratchPad i {
   background: #6f42c1;
   font-size: 14px;
@@ -96,10 +111,10 @@ a:hover {
   color: #44475a;
 }
 
-.playground {
+.playground,
+.playground:hover {
   color: #f8f9fa;
 }
-
 .playground i {
   background: #f8f9fa;
   font-size: 14px;
@@ -107,16 +122,15 @@ a:hover {
   border-radius: 2px;
   color: #44475a;
 }
-
 i.fa-lock {
   color: white;
   background: #44475a;
 }
 
-.help {
+.help,
+.help:hover {
   color: #f1fa8c;
 }
-
 .help i {
   background: #f1fa8c;
   font-size: 14px;
@@ -125,28 +139,24 @@ i.fa-lock {
   color: #44475a;
 }
 
-/* .nav li i {
-  font-size: 14px;
-  border-radius: 2px;
-  padding: 3px;
-  margin-right: 5px;
-  background: white;
-} */
-
 .navbar-brand svg {
-  margin-bottom: -450px;
+  margin-top: 480px;
+  margin-bottom: 0;
 }
 
 /* a.navbar-brand:hover {
   color: #f1fa8c;
 } */
 
+.list-inline {
+  margin-top: -30px;
+}
+
 .list-inline-item {
   border-radius: 50%;
   color: white;
   font-size: 11px;
   padding: 4px;
-  margin-top: 15px;
   text-decoration: none;
 }
 
@@ -170,24 +180,25 @@ i.fa-lock {
 
 /* reddit feed column*/
 .reddit-feed {
-  background: #ccc;
+  width: 25%;
   text-align: left;
 }
-
 .reddit-feed h5 {
   color: #8be9fd;
 }
 
 /* search history/clock column*/
 .search-history {
-  background: yellow;
+  width: 50%;
+}
+.search-history h5 {
+  color: #8be9fd;
 }
 
 /* github feed column */
 .github-feed {
-  background: blue;
+  width: 25%;
 }
-
 .github-feed h5 {
   color: #8be9fd;
 }
