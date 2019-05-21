@@ -37,12 +37,92 @@ a:hover {
   text-decoration: none;
 }
 
+.settings {
+  color: #8be9fd;
+}
 .settings i {
-  background: teal;
+  background: #8be9fd;
   font-size: 14px;
   padding: 3px;
   border-radius: 2px;
-  color: #333;
+  color: #44475a;
+}
+
+.gists {
+  color: #47e96d;
+}
+
+.gists i {
+  background: #47e96d;
+  font-size: 14px;
+  padding: 3px;
+  border-radius: 2px;
+  color: #44475a;
+}
+
+.stackOverflow {
+  color: #ffc107;
+}
+
+.stackOverflow i {
+  background: #ffc107;
+  font-size: 14px;
+  padding: 3px;
+  border-radius: 2px;
+  color: #44475a;
+}
+
+.trending {
+  color: #e83e8c;
+}
+
+.trending i {
+  background: #e83e8c;
+  font-size: 14px;
+  padding: 3px;
+  border-radius: 2px;
+  color: #44475a;
+}
+
+.scratchPad {
+  color: #6f42c1;
+}
+
+.scratchPad i {
+  background: #6f42c1;
+  font-size: 14px;
+  padding: 3px;
+  border-radius: 2px;
+  color: #44475a;
+}
+
+.playground {
+  color: #f8f9fa;
+}
+
+.playground i {
+  background: #f8f9fa;
+  font-size: 14px;
+  padding: 3px;
+  border-radius: 2px;
+  color: #44475a;
+}
+
+i.fa-lock {
+  color: white;
+  background: #44475a;
+}
+
+.help {
+  color: #f1fa8c;
+}
+
+.help i {
+  background: #f1fa8c;
+  font-size: 14px;
+  padding: 3px;
+  border-radius: 2px;
+  color: #44475a;
 }
 
 /* .nav li i {
@@ -58,7 +138,7 @@ a:hover {
 }
 
 /* a.navbar-brand:hover {
-  color: yellow;
+  color: #f1fa8c;
 } */
 
 .list-inline-item {
@@ -88,17 +168,26 @@ a:hover {
   background: rgb(95, 153, 207);
 }
 
-/* reddit feed */
+/* reddit feed column*/
 .reddit-feed {
   background: #ccc;
   text-align: left;
 }
 
-/* search history */
+.reddit-feed h5 {
+  color: #8be9fd;
+}
+
+/* search history/clock column*/
 .search-history {
   background: yellow;
 }
 
+/* github feed column */
 .github-feed {
   background: blue;
+}
+
+.github-feed h5 {
+  color: #8be9fd;
 }
