@@ -1,6 +1,8 @@
-* {
+body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .navbar {
@@ -16,13 +18,13 @@
 }
 
 .navbar-fixed-left .navbar-nav > li {
-  float: none; /* Cancel default li float: left */
+  float: left; /* Cancel default li float: left */
   width: 120px;
 }
 
-.navbar-fixed-left + .container {
+/* .navbar-fixed-left + .container {
   padding-left: 20px;
-}
+} */
 
 /* On using dropdown menu (To right shift popuped) */
 .navbar-fixed-left .navbar-nav > li > .dropdown-menu {
@@ -34,21 +36,21 @@ a:hover {
   text-decoration: none;
 }
 
-.container {
-  width: 100vw;
-  position: relative;
+.navbar-brand svg {
+  margin-bottom: -450px;
 }
 
-.black {
-  /* background: #ccc; */
-  width: 100%;
+/* reddit feed */
+.reddit-feed {
+  background: #ccc;
   text-align: left;
 }
 
-.yellow {
+/* search history */
+.search-history {
   background: yellow;
 }
 
-.blue {
+.github-feed {
   background: blue;
 }
