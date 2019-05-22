@@ -191,17 +191,62 @@ i.fa-lock {
 .reddit-feed {
   width: 25%;
   text-align: left;
+  width: 100%;
+  top: 0;
+  overflow-y: auto;
 }
 .reddit-feed h5 {
   color: #8be9fd;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: 'Inconsolata', monospace;
 }
 
 /* search history/clock column*/
 .search-history {
   width: 50%;
+  font-family: 'Inconsolata', monospace;
+  width: 100%;
+  top: 0;
+  max-height: 49%;
+  overflow-y: auto;
 }
 .search-history h5 {
   color: #8be9fd;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: 'Inconsolata', monospace;
+}
+
+.search-history-list {
+  list-style: none;
+  font-size: 14px;
+}
+
+.search-history-list img {
+  border-color: green;
+}
+
+.search-history-list a {
+  text-decoration: none;
+  color: #6272a4;
+}
+
+.search-history-list a:hover {
+  color: #f1fa8c;
+}
+
+.search-history-list span {
+  color: #999999;
+  float: right;
 }
 
 .clock {
@@ -228,4 +273,11 @@ i.fa-lock {
 }
 .github-feed h5 {
   color: #8be9fd;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: 'Inconsolata', monospace;
 }
