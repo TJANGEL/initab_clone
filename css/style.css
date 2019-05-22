@@ -194,6 +194,8 @@ i.fa-lock {
   width: 100%;
   top: 0;
   overflow-y: auto;
+  font-size: 16px;
+  font-family: 'Inconsolata', monospace;
 }
 .reddit-feed h5 {
   color: #8be9fd;
@@ -204,6 +206,10 @@ i.fa-lock {
   font-weight: 100;
   text-transform: uppercase;
   font-family: 'Inconsolata', monospace;
+}
+
+.reddit-feed blockquote {
+  font-size: 5px;
 }
 
 /* search history/clock column*/
