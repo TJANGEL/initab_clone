@@ -1,6 +1,10 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   height: 100%;
   width: 100%;
   background: #343a40;
@@ -11,6 +15,10 @@ body {
 
 .container {
   width: 100%;
+}
+
+.column {
+  margin-top: 30px;
 }
 
 .navbar {
@@ -142,11 +150,12 @@ i.fa-lock {
 .navbar-brand svg {
   margin-top: 480px;
   margin-bottom: 0;
+  float: end;
 }
 
-/* a.navbar-brand:hover {
-  color: #f1fa8c;
-} */
+.navbar-brand svg:hover {
+  fill: #f1fa8c;
+}
 
 .list-inline {
   margin-top: -30px;
@@ -193,6 +202,24 @@ i.fa-lock {
 }
 .search-history h5 {
   color: #8be9fd;
+}
+
+.clock {
+  text-align: center;
+}
+
+.clock p i {
+  background: #ffc107;
+  border-radius: 50%;
+  padding: 2px;
+  color: #343a40;
+}
+
+#got-it {
+  background: #343a40;
+  color: #ffc107;
+  border: none;
+  align-items: center;
 }
 
 /* github feed column */
