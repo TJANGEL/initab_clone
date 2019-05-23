@@ -79,10 +79,10 @@ a:hover {
 
 .trending,
 .trending:hover {
-  color: #e83e8c;
+  color: #ff79c6;
 }
 .trending i {
-  background: #e83e8c;
+  background: #ff79c6;
   font-size: 14px;
   padding: 3px;
   border-radius: 2px;
@@ -218,6 +218,7 @@ i.fa-lock {
 .reddit-feed-content {
   border-left: 3px solid #44475a;
   padding-left: 9px;
+  font-size: 14px;
 }
 
 .reddit-feed-content:hover {
@@ -228,11 +229,6 @@ i.fa-lock {
   text-transform: none;
   color: #fff;
   text-align: left;
-  font-size: 13px;
-}
-
-.reddit-feed-list a {
-  text-decoration: none;
 }
 
 .reddit-feed-list a h5 {
@@ -248,8 +244,18 @@ i.fa-lock {
   color: #8be9fd;
 }
 
-.reddit-feed-list a a {
-  color: red;
+.reddit-feed-list span.score {
+  color: #6272a4;
+}
+
+.redditCommentsLink {
+  color: #ff79c6;
+  text-decoration: underline;
+}
+
+.redditCommentsLink:hover {
+  color: #8be9fd;
+  text-decoration: underline;
 }
 
 /* MIDDLE SECTION */
@@ -393,5 +399,5 @@ i.fa-lock {
 }
 
 #pull-requests a {
-  color: #e83e8c;
+  color: #ff79c6;
 }
