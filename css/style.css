@@ -5,10 +5,10 @@
 }
 
 body {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background: #282a36;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 10px;
   color: #6272a4;
 }
@@ -181,16 +181,91 @@ i.fa-lock {
   padding: 5px;
 }
 
-.left,
-.right {
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+/* LEFT SECTION */
+.left {
   flex: 1;
 }
 
+.reddit-feed {
+  overflow-y: scroll;
+}
+
+.reddit-feed h5 {
+  color: #8be9fd;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+/* MIDDLE SECTION */
 .middle {
   flex: 2;
 }
 
-.reddit-feed,
+.search-history {
+  overflow-y: scroll;
+}
+
+.search-history,
 .clock {
   height: 50vh;
+}
+
+.search-history h5 {
+  color: #8be9fd;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.clock {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* RIGHT SECTION */
+.right {
+  flex: 1;
+}
+
+.github-feed {
+  text-align: center;
+}
+
+.github-feed h5 {
+  color: #8be9fd;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.github-feed .top-content h5 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.github-feed .tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#issues a,
+#pull-requests a {
+  text-transform: uppercase;
 }

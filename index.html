@@ -28,7 +28,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div style="display: flex">
+    <div id="all" style="display: flex">
       <div class="navbar">
         <div class="navbar navbar-inverse navbar-fixed-left">
           <ul class="nav navbar-nav">
@@ -152,30 +152,47 @@
       <div class="main">
         <div class="wrapper">
           <div class="left">
-            <h3>hello</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-              voluptatem assumenda voluptate possimus temporibus illo.
-            </p>
-          </div>
-          <div class="middle">
             <div class="reddit-feed">
-              <h3>hello</h3>
+              <h5>
+                <i class="fab fa-reddit-alien"></i> popular on r/javascript
+              </h5>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-                voluptatem assumenda voluptate possimus temporibus illo.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia tenetur totam aspernatur repellat assumenda! Obcaecati
+                magnam et eum repellat quidem sint doloremque hic accusantium
+                repellendus omnis at harum, deleniti voluptates!
               </p>
             </div>
+          </div>
+          <div class="middle">
+            <div class="search-history">
+              <h5><i class="far fa-clock"></i> Relavant Javascript History</h5>
+            </div>
+            <hr />
             <div class="clock">
               <h1>CLOCK</h1>
             </div>
           </div>
           <div class="right">
-            <h3>hello</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-              voluptatem assumenda voluptate possimus temporibus illo.
-            </p>
+            <div class="github-feed">
+              <div class="top-content">
+                <h5><i class="fab fa-github-alt"></i> github issues history</h5>
+                <a href="#">switch to github</a>
+              </div>
+              <div class="tabs">
+                <div id="issues">
+                  <a href="#">issues</a>
+                  <br />
+                  <i class="fas fa-caret-up"></i>
+                </div>
+                <div id="pull-requests">
+                  <a href="#">Pull Requests</a>
+                </div>
+                <!-- issues -->
+
+                <!-- pull requests -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
