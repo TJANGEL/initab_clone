@@ -13,41 +13,13 @@ body {
   color: #6272a4;
 }
 
-.container {
-  width: 100%;
-}
-
-.column {
-  margin-top: 30px;
-}
-
+/* NAVBAR */
 .navbar {
   font-size: 13px;
   font-family: 'Inconsolata', monospace;
   background: #44475a;
   font-weight: 100;
-}
-
-.navbar-fixed-left {
-  width: 146px;
-  position: fixed;
-  border-radius: 0;
-  height: 100%;
-}
-
-.navbar-fixed-left .navbar-nav > li {
-  float: left; /* Cancel default li float: left */
-  width: 140px;
-}
-
-/* .navbar-fixed-left + .container {
-  padding-left: 20px;
-} */
-
-/* On using dropdown menu (To right shift popuped) */
-.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
-  margin-top: -50px;
-  margin-left: 140px;
+  flex: 1;
 }
 
 .nav li {
@@ -201,124 +173,24 @@ i.fa-lock {
   color: #fff;
 }
 
-/* reddit feed column*/
-.reddit-feed {
-  width: 25%;
-  text-align: left;
-  width: 100%;
-  top: 0;
-  overflow-y: auto;
-  font-size: 16px;
-  font-family: 'Inconsolata', monospace;
-  overflow-y: scroll;
-}
-.reddit-feed h5 {
-  color: #8be9fd;
-  margin-bottom: 10px;
-  margin-top: 40px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 100;
-  text-transform: uppercase;
-  font-family: 'Inconsolata', monospace;
+.wrapper {
+  display: flex;
 }
 
-.reddit-feed-list {
-  font-family: 'Inconsolata', monospace;
-  list-style: none;
-  text-align: left;
+.wrapper div {
+  padding: 5px;
 }
 
-.reddit-feed-list a {
-  text-decoration: none;
+.left,
+.right {
+  flex: 1;
 }
 
-.reddit-feed-list a h5 {
-  text-align: left;
-  color: #fff;
+.middle {
+  flex: 2;
 }
 
-.reddit-feed-list a h6 {
-  color: #f1fa8c;
-}
-
-.reddit-feed-list a h6 span {
-  color: #8be9fd;
-}
-
-/* search history/clock column*/
-.search-history {
-  width: 50%;
-  font-family: 'Inconsolata', monospace;
-  width: 100%;
-  top: 0;
-  height: 50vh;
-  overflow-y: scroll;
-}
-.search-history h5 {
-  color: #8be9fd;
-  margin-bottom: 10px;
-  margin-top: 40px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 100;
-  text-transform: uppercase;
-  font-family: 'Inconsolata', monospace;
-}
-
-.search-history-list {
-  list-style: none;
-  font-size: 14px;
-}
-
-.search-history-list img {
-  border-color: green;
-}
-
-.search-history-list a {
-  text-decoration: none;
-  color: #6272a4;
-}
-
-.search-history-list a:hover {
-  color: #f1fa8c;
-}
-
-.search-history-list span {
-  color: #999999;
-  float: right;
-}
-
+.reddit-feed,
 .clock {
-  text-align: center;
   height: 50vh;
-}
-
-.clock p i {
-  background: #ffc107;
-  border-radius: 50%;
-  padding: 2px;
-  color: #343a40;
-}
-
-#got-it {
-  background: #343a40;
-  color: #ffc107;
-  border: none;
-  align-items: center;
-}
-
-/* github feed column */
-.github-feed {
-  width: 25%;
-}
-.github-feed h5 {
-  color: #8be9fd;
-  margin-bottom: 10px;
-  margin-top: 40px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 100;
-  text-transform: uppercase;
-  font-family: 'Inconsolata', monospace;
 }

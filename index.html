@@ -4,592 +4,181 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- fontawesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-      crossorigin="anonymous"
-    />
-    <!-- google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap"
-      rel="stylesheet"
-    />
-    <!-- bootstrap -->
+    <!-- BOOTSTRAP -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <!-- custom css -->
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Initab Clone</title>
+    <title>Document</title>
   </head>
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-left">
-      <ul class="nav navbar-nav">
-        <li>
-          <a href="#" class="settings">
-            <i class="fas fa-wrench"></i>
-            SETTINGS
-          </a>
-        </li>
-        <li>
-          <a href="#" class="gists">
-            <i class="fas fa-code"></i>
-            GISTS
-          </a>
-        </li>
-        <li>
-          <a href="#" class="stackOverflow">
-            <i class="fab fa-stack-overflow"></i>
-            STACK OVERFLOW
-          </a>
-        </li>
-        <li>
-          <a href="#" class="trending">
-            <i class="fas fa-chart-line"></i>
-            TRENDING
-          </a>
-        </li>
-        <li>
-          <a href="#" class="scratchPad">
-            <i class="fas fa-pencil-alt"></i>
-            SCRATCH PAD
-          </a>
-        </li>
-        <li>
-          <a href="#" class="playground">
-            <i class="far fa-lightbulb"></i>
-            PLAYGROUND <i class="fas fa-lock"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="help">
-            <i class="fas fa-question"></i>
-            HELP/INFO
-          </a>
-        </li>
-        <li>
-          <a class="navbar-brand" href="#">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              width="100px"
-              height="100px"
-              viewBox="0 0 492 144"
-              version="1.1"
-              class="injected-svg initab-logo"
-              data-src="img/initab_logo.svg"
-            >
-              <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
-              <title>initab_logo</title>
-              <desc>Created with Sketch.</desc>
-              <defs></defs>
-              <g
-                id="Page-1"
-                stroke="none"
-                stroke-width="1"
-                fill="none"
-                fill-rule="evenodd"
-              >
-                <g id="Group-5" fill="#6272A4">
-                  <path
-                    d="M81.2656922,13 L54.460381,13 C50.6405214,13 47.1543546,15.1761068 45.4765914,18.6077883 L1.96412484,107.607788 C1.29548278,108.975423 0.947914466,110.477664 0.947914466,112 C0.947914466,117.522847 5.42506697,122 10.9479145,122 L40.9277073,122 L81.2656922,13 Z"
-                    id="Combined-Shape"
-                  ></path>
-                  <path
-                    d="M464.927011,21.1855043 L464.927011,10 C464.927011,4.4771525 460.449858,-1.01437955e-15 454.927011,0 L100.889084,0 C96.7048022,-2.94762045e-15 92.9629247,2.60512247 91.5106889,6.52930689 L45.6216052,130.529307 C45.2104727,131.640256 45,132.815417 45,134 C45,139.522847 49.4771525,144 55,144 L454.927011,144 C460.449858,144 464.927011,139.522847 464.927011,134 L464.927011,122.814496 C464.30346,122.93622 463.659178,123 463,123 L126,123 C120.477153,123 116,118.522847 116,113 L116,31 C116,25.4771525 120.477153,21 126,21 L463,21 C463.659178,21 464.30346,21.0637796 464.927011,21.1855043 Z"
-                    id="Combined-Shape"
-                  ></path>
-                  <path
-                    d="M136.232,45.736 L136.232,100 L143.452,100 L143.452,45.736 L136.232,45.736 Z M162.436,45.736 L162.436,100 L169.276,100 L169.276,56.452 L169.428,56.452 L197.776,100 L205.68,100 L205.68,45.736 L198.84,45.736 L198.84,89.74 L198.688,89.74 L170.112,45.736 L162.436,45.736 Z M224.588,45.736 L224.588,100 L231.808,100 L231.808,45.736 L224.588,45.736 Z M263.18,51.816 L245.092,51.816 L245.092,45.736 L288.488,45.736 L288.488,51.816 L270.4,51.816 L270.4,100 L263.18,100 L263.18,51.816 Z M303.748,77.58 L322.14,77.58 L313.096,52.272 L312.944,52.272 L303.748,77.58 Z M309.144,45.736 L317.124,45.736 L338.328,100 L330.348,100 L324.42,83.66 L301.468,83.66 L295.388,100 L288.016,100 L309.144,45.736 Z M357.768,69.068 L372.208,69.068 C376.312021,69.068 379.263325,68.3460072 381.062,66.902 C382.860676,65.4579928 383.76,63.2920144 383.76,60.404 C383.76,58.478657 383.456004,56.9586722 382.848,55.844 C382.239997,54.7293278 381.404006,53.868003 380.34,53.26 C379.275995,52.651997 378.047341,52.2593342 376.654,52.082 C375.26066,51.9046658 373.778675,51.816 372.208,51.816 L357.768,51.816 L357.768,69.068 Z M350.548,45.736 L370.232,45.736 C371.39734,45.736 372.651327,45.7486665 373.994,45.774 C375.336674,45.7993335 376.666661,45.8753327 377.984,46.002 C379.30134,46.1286673 380.529995,46.3186654 381.67,46.572 C382.810006,46.8253346 383.78533,47.2053308 384.596,47.712 C386.369343,48.7760053 387.876661,50.245324 389.118,52.12 C390.35934,53.994676 390.98,56.2999863 390.98,59.036 C390.98,61.9240144 390.283341,64.4193228 388.89,66.522 C387.49666,68.6246772 385.508013,70.1826616 382.924,71.196 L382.924,71.348 C386.268017,72.0573369 388.826658,73.5773217 390.6,75.908 C392.373343,78.2386783 393.26,81.0759833 393.26,84.42 C393.26,86.3960099 392.905337,88.321324 392.196,90.196 C391.486664,92.070676 390.435341,93.7299928 389.042,95.174 C387.64866,96.6180072 385.926011,97.7833289 383.874,98.67 C381.82199,99.5566711 379.453347,100 376.768,100 L350.548,100 L350.548,45.736 Z M357.768,93.92 L375.856,93.92 C379.048016,93.92 381.543325,93.0586753 383.342,91.336 C385.140676,89.6133247 386.04,87.2320152 386.04,84.192 C386.04,82.4186578 385.71067,80.9493392 385.052,79.784 C384.393331,78.6186608 383.519339,77.6940034 382.43,77.01 C381.340662,76.3259966 380.086674,75.8446681 378.668,75.566 C377.249327,75.2873319 375.780008,75.148 374.26,75.148 L357.768,75.148 L357.768,93.92 Z"
-                    id="INITAB"
-                  ></path>
-                  <path
-                    d="M454,67 L454,48 L446,48 L446,67 L427,67 L427,75 L446,75 L446,94 L454,94 L454,75 L473,75 L473,67 L454,67 Z M419,31 L482,31 C487.522847,31 492,35.4771525 492,41 L492,104 C492,109.522847 487.522847,114 482,114 L419,114 C413.477153,114 409,109.522847 409,104 L409,41 L409,41 C409,35.4771525 413.477153,31 419,31 L419,31 Z"
-                    id="Combined-Shape"
-                  ></path>
-                </g>
-              </g>
-            </svg>
-          </a>
-        </li>
-      </ul>
-
-      <!-- social media -->
-          <ul class="list-inline">
-              <li class="list-inline-item facebook">
-                <a href="https://www.facebook.com/" target="_blank">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item linkedIn">
-                <a href="https://www.linkedin.com/in/thomas-angeloni-8740873b/" target="_blank">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-              <li class="list-inline-item twitter">
-                <a href="https://twitter.com/?lang=en" target="_blank">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item reddit">
-                <a href="https://www.reddit.com/" target="blank">
-                  <i class="fab fa-reddit-alien"></i>
-                </a>
-              </li>
-            </ul>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 reddit-feed">
-          <h5><i class="fab fa-reddit-alien"></i> POPULAR ON R/JAVASCRIPT</h5>
-          <ul class="reddit-feed-list">
-            <li class="native-ad themeBorder2 hasHover sc-jnlKLf cezePR native-show" style="display: block;">
-              <a class="sc-fYxtnH hSLfWw" href="https:////srv.buysellads.com/ads/click/x/GTND42QMFTBIKKJLCT7LYKQMCWADPK3UCKYIVZ3JCWBIE2JNCWSITKJKC6BIP53MCWADEK3EHJNCLSIZ">
-                <h5 class="themeFg18 sc-tilXH gdkbuD">Bring your team together with Slack, the collaboration hub for work.</h5>
-                <h6 class="themeFg13 sc-hEsumM gTpGwD">Learn More</h6>
-                <p class="themeFg9 sc-ktHwxA kTKKdQ">Sponsored by Slack</p>
+    <div style="display: flex">
+      <div class="navbar">
+        <div class="navbar navbar-inverse navbar-fixed-left">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#" class="settings">
+                <i class="fas fa-wrench"></i>
+                SETTINGS
               </a>
-              <img src="https://ad.doubleclick.net/ddm/trackimp/N32602.3091281BUYSELLADS/B21259774.226545665;dc_trk_aid=424684281;dc_trk_cid=104544889;ord=1558560708;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?" style="display:none;" height="0" width="0">
             </li>
-            <li class="themeBorder2 hasHover sc-hqyNC hiVOon">
-              <a class="sc-jbKcbu cWSlbe" href="https://devinduct.com/blogpost/22/javascript-clean-code-best-practices">
-                <h5 class="themeFg18 sc-dNLxif cMMsok">
-                  <span class="themeFg12"></span>
-                    <!-- react-text: 707 -->JavaScript Clean Code - Best Practices - based on Robert C. Martin's book Clean Code<!-- /react-text --></h5>
-                    <h6 class="themeFg13 sc-jqCOkK dacEiH">
-                    <span class="themeFg10">Posted by:</span>
-                        <!-- react-text: 710 --> u/<!-- /react-text --><!-- react-text: 711 -->PMilos<!-- /react-text --></h6>
-                        <span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 713 -->Reddit Score:<!-- /react-text -->
-                          <!-- react-text: 714 --> <!-- /react-text -->
-                          <span>314</span>
-                        </span>
-                        <a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brm8dg/javascript_clean_code_best_practices_based_on/">Link to Comments</a>
-                      </a>
-                    </li>
-                    <li class="themeBorder2 hasHover sc-hqyNC hiVOon">
-                      <a class="sc-jbKcbu cWSlbe" href="https://javascript.pythoncheatsheet.org">
-                        <h5 class="themeFg18 sc-dNLxif cMMsok">
-                          <span class="themeFg12">
+            <li>
+              <a href="#" class="gists">
+                <i class="fas fa-code"></i>
+                GISTS
+              </a>
+            </li>
+            <li>
+              <a href="#" class="stackOverflow">
+                <i class="fab fa-stack-overflow"></i>
+                STACK OVERFLOW
+              </a>
+            </li>
+            <li>
+              <a href="#" class="trending">
+                <i class="fas fa-chart-line"></i>
+                TRENDING
+              </a>
+            </li>
+            <li>
+              <a href="#" class="scratchPad">
+                <i class="fas fa-pencil-alt"></i>
+                SCRATCH PAD
+              </a>
+            </li>
+            <li>
+              <a href="#" class="playground">
+                <i class="far fa-lightbulb"></i>
+                PLAYGROUND <i class="fas fa-lock"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="help">
+                <i class="fas fa-question"></i>
+                HELP/INFO
+              </a>
+            </li>
+            <li>
+              <a class="navbar-brand" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="100px"
+                  height="100px"
+                  viewBox="0 0 492 144"
+                  version="1.1"
+                  class="injected-svg initab-logo"
+                  data-src="img/initab_logo.svg"
+                >
+                  <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+                  <title>initab_logo</title>
+                  <desc>Created with Sketch.</desc>
+                  <defs></defs>
+                  <g
+                    id="Page-1"
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g id="Group-5" fill="#6272A4">
+                      <path
+                        d="M81.2656922,13 L54.460381,13 C50.6405214,13 47.1543546,15.1761068 45.4765914,18.6077883 L1.96412484,107.607788 C1.29548278,108.975423 0.947914466,110.477664 0.947914466,112 C0.947914466,117.522847 5.42506697,122 10.9479145,122 L40.9277073,122 L81.2656922,13 Z"
+                        id="Combined-Shape"
+                      ></path>
+                      <path
+                        d="M464.927011,21.1855043 L464.927011,10 C464.927011,4.4771525 460.449858,-1.01437955e-15 454.927011,0 L100.889084,0 C96.7048022,-2.94762045e-15 92.9629247,2.60512247 91.5106889,6.52930689 L45.6216052,130.529307 C45.2104727,131.640256 45,132.815417 45,134 C45,139.522847 49.4771525,144 55,144 L454.927011,144 C460.449858,144 464.927011,139.522847 464.927011,134 L464.927011,122.814496 C464.30346,122.93622 463.659178,123 463,123 L126,123 C120.477153,123 116,118.522847 116,113 L116,31 C116,25.4771525 120.477153,21 126,21 L463,21 C463.659178,21 464.30346,21.0637796 464.927011,21.1855043 Z"
+                        id="Combined-Shape"
+                      ></path>
+                      <path
+                        d="M136.232,45.736 L136.232,100 L143.452,100 L143.452,45.736 L136.232,45.736 Z M162.436,45.736 L162.436,100 L169.276,100 L169.276,56.452 L169.428,56.452 L197.776,100 L205.68,100 L205.68,45.736 L198.84,45.736 L198.84,89.74 L198.688,89.74 L170.112,45.736 L162.436,45.736 Z M224.588,45.736 L224.588,100 L231.808,100 L231.808,45.736 L224.588,45.736 Z M263.18,51.816 L245.092,51.816 L245.092,45.736 L288.488,45.736 L288.488,51.816 L270.4,51.816 L270.4,100 L263.18,100 L263.18,51.816 Z M303.748,77.58 L322.14,77.58 L313.096,52.272 L312.944,52.272 L303.748,77.58 Z M309.144,45.736 L317.124,45.736 L338.328,100 L330.348,100 L324.42,83.66 L301.468,83.66 L295.388,100 L288.016,100 L309.144,45.736 Z M357.768,69.068 L372.208,69.068 C376.312021,69.068 379.263325,68.3460072 381.062,66.902 C382.860676,65.4579928 383.76,63.2920144 383.76,60.404 C383.76,58.478657 383.456004,56.9586722 382.848,55.844 C382.239997,54.7293278 381.404006,53.868003 380.34,53.26 C379.275995,52.651997 378.047341,52.2593342 376.654,52.082 C375.26066,51.9046658 373.778675,51.816 372.208,51.816 L357.768,51.816 L357.768,69.068 Z M350.548,45.736 L370.232,45.736 C371.39734,45.736 372.651327,45.7486665 373.994,45.774 C375.336674,45.7993335 376.666661,45.8753327 377.984,46.002 C379.30134,46.1286673 380.529995,46.3186654 381.67,46.572 C382.810006,46.8253346 383.78533,47.2053308 384.596,47.712 C386.369343,48.7760053 387.876661,50.245324 389.118,52.12 C390.35934,53.994676 390.98,56.2999863 390.98,59.036 C390.98,61.9240144 390.283341,64.4193228 388.89,66.522 C387.49666,68.6246772 385.508013,70.1826616 382.924,71.196 L382.924,71.348 C386.268017,72.0573369 388.826658,73.5773217 390.6,75.908 C392.373343,78.2386783 393.26,81.0759833 393.26,84.42 C393.26,86.3960099 392.905337,88.321324 392.196,90.196 C391.486664,92.070676 390.435341,93.7299928 389.042,95.174 C387.64866,96.6180072 385.926011,97.7833289 383.874,98.67 C381.82199,99.5566711 379.453347,100 376.768,100 L350.548,100 L350.548,45.736 Z M357.768,93.92 L375.856,93.92 C379.048016,93.92 381.543325,93.0586753 383.342,91.336 C385.140676,89.6133247 386.04,87.2320152 386.04,84.192 C386.04,82.4186578 385.71067,80.9493392 385.052,79.784 C384.393331,78.6186608 383.519339,77.6940034 382.43,77.01 C381.340662,76.3259966 380.086674,75.8446681 378.668,75.566 C377.249327,75.2873319 375.780008,75.148 374.26,75.148 L357.768,75.148 L357.768,93.92 Z"
+                        id="INITAB"
+                      ></path>
+                      <path
+                        d="M454,67 L454,48 L446,48 L446,67 L427,67 L427,75 L446,75 L446,94 L454,94 L454,75 L473,75 L473,67 L454,67 Z M419,31 L482,31 C487.522847,31 492,35.4771525 492,41 L492,104 C492,109.522847 487.522847,114 482,114 L419,114 C413.477153,114 409,109.522847 409,104 L409,41 L409,41 C409,35.4771525 413.477153,31 419,31 L419,31 Z"
+                        id="Combined-Shape"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
 
-                          </span><!-- react-text: 721 -->JavaScript Cheatsheet<!-- /react-text -->
-                        </h5>
-                        <h6 class="themeFg13 sc-jqCOkK dacEiH">
-                          <span class="themeFg10">Posted by:</span>
-                          <!-- react-text: 724 --> u/<!-- /react-text --><!-- react-text: 725 -->wilfredinni<!-- /react-text -->
-                        </h6>
-                          <span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 727 -->Reddit Score:<!-- /react-text --><!-- react-text: 728 --> <!-- /react-text --><span>12</span></span>
-                            <a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brpvxp/javascript_cheatsheet/">Link to Comments</a>
-                          </a>
-                        </li>
-                          <li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://cursorblog.com/managing-a-secure-json-web-token-implementation/">
-                            <h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12">
-                            </span><!-- react-text: 735 -->Managing a Secure JSON Web Token Implementation<!-- /react-text --></h5>
-                            <h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 738 --> u/<!-- /react-text --><!-- react-text: 739 -->FanielDanara<!-- /react-text --></h6>
-                            <span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 741 -->Reddit Score:<!-- /react-text --><!-- react-text: 742 --> <!-- /react-text --><span>127</span></span>
-                            <a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/briwmi/managing_a_secure_json_web_token_implementation/">Link to Comments</a></a></li>
-                            <li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://www.reddit.com/r/javascript/comments/brjxab/nan_can_be_used_as_an_array_index/">
-                              <h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 749 -->NaN can be used as an array index<!-- /react-text --></h5>
-                              <h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 752 --> u/<!-- /react-text --><!-- react-text: 753 -->FavoriteColorFlavor<!-- /react-text --></h6>
-                              <span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 755 -->Reddit Score:<!-- /react-text --><!-- react-text: 756 --> <!-- /react-text --><span>49</span></span></a>
-                            </li>
-                            <li class="themeBorder2 hasHover sc-hqyNC hiVOon">
-                              <a class="sc-jbKcbu cWSlbe" href="https://jrsinclair.com/articles/2019/functional-js-do-more-with-reduce/">
-                                <h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 762 -->Functional JavaScript: How to use array reduce for more than just numbers<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 765 --> u/<!-- /react-text --><!-- react-text: 766 -->jrsinclair<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 768 -->Reddit Score:<!-- /react-text --><!-- react-text: 769 --> <!-- /react-text --><span>7</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/broalo/functional_javascript_how_to_use_array_reduce_for/">Link to Comments</a></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://medium.com/gitconnected/web-components-in-a-nutshell-1e114aa971b9?source=friends_link&amp;amp;sk=929b74bce56cde592d808f8bbc21e3b0"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 776 -->Web Components in a Nutshell<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 779 --> u/<!-- /react-text --><!-- react-text: 780 -->treyhuffine<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 782 -->Reddit Score:<!-- /react-text --><!-- react-text: 783 --> <!-- /react-text --><span>6</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brpf7g/web_components_in_a_nutshell/">Link to Comments</a></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://www.reddit.com/r/javascript/comments/brsxfm/student_looking_for_job/"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 790 -->Student looking for job<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 793 --> u/<!-- /react-text --><!-- react-text: 794 -->trujic1000<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 796 -->Reddit Score:<!-- /react-text --><!-- react-text: 797 --> <!-- /react-text --><span>2</span></span></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://engineering.spideroak.com/simplifying-deep-object-property-getting/"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span>
-                                  <!-- react-text: 803 -->Simplify nested object property use<!-- /react-text --></h5>
-                                  <h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span>
-                                    <!-- react-text: 806 --> u/<!-- /react-text --><!-- react-text: 807 -->ivanalejandro0<!-- /react-text --></h6>
-                                    <span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 809 -->Reddit Score:<!-- /react-text --><!-- react-text: 810 --> <!-- /react-text --><span>2</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brrt5f/simplify_nested_object_property_use/">Link to Comments</a>
-                                  </a>
-                                </li>
-                                  <li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://www.onefiniteloop.io/dockerize-your-selenium-tests-to-run-everywhere-ii">
-                                    <h5 class="themeFg18 sc-dNLxif cMMsok">
-                                      <span class="themeFg12"></span><!-- react-text: 817 -->🐳 Dockerize your tests to run everywhere - Part II<!-- /react-text --></h5>
-                                  <h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 820 --> u/<!-- /react-text --><!-- react-text: 821 -->ricca509<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 823 -->Reddit Score:<!-- /react-text --><!-- react-text: 824 --> <!-- /react-text --><span>1</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/bruecr/dockerize_your_tests_to_run_everywhere_part_ii/">Link to Comments</a></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://www.reddit.com/r/javascript/comments/brucn6/display_values_on_chart_when_negative/"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 831 -->Display values on chart when negative<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 834 --> u/<!-- /react-text --><!-- react-text: 835 -->Clauric<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 837 -->Reddit Score:<!-- /react-text --><!-- react-text: 838 --> <!-- /react-text --><span>0</span></span></a>
-                                  </li>
-                                  <li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://medium.com/inato/migrating-from-flow-to-typescript-why-how-worth-it-5b7703d12089"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span>
-                                    <!-- react-text: 844 -->Migrating from Flow to Typescript: Why ? How ? Worth it ?<!-- /react-text --></h5>
-                                    <h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 847 --> u/<!-- /react-text --><!-- react-text: 848 -->troll-des-montagnes<!-- /react-text --></h6>
-                                    <span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 850 -->Reddit Score:<!-- /react-text --><!-- react-text: 851 --> <!-- /react-text --><span>2</span></span>
-                                    <a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brqb0k/migrating_from_flow_to_typescript_why_how_worth_it/">Link to Comments</a></a>
-                                  </li>
-                                  <li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://tornis.robbowen.digital/"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 858 -->Tornis - a minimal JavaScript library that watches the state of your browser's viewport, allowing you to respond whenever something changes. Think of Tornis as a store for your viewport<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 861 --> u/<!-- /react-text --><!-- react-text: 862 -->magenta_placenta<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 864 -->Reddit Score:<!-- /react-text --><!-- react-text: 865 --> <!-- /react-text --><span>1</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brsx0a/tornis_a_minimal_javascript_library_that_watches/">Link to Comments</a></a>
-                                  </li>
-                                  <li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://threejsfundamentals.org/threejs/lessons/threejs-fundamentals.html"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 872 -->Three.js Fundamentals - This is the first article in a series of articles about three.js. Three.js is a 3D library that tries to make it as easy as possible to get 3D content on a webpage<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 875 --> u/<!-- /react-text --><!-- react-text: 876 -->magenta_placenta<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 878 -->Reddit Score:<!-- /react-text --><!-- react-text: 879 --> <!-- /react-text --><span>1</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brswa3/threejs_fundamentals_this_is_the_first_article_in/">Link to Comments</a></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://sebastiandedeyne.com/why-i-prefer-react-over-vue/"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 886 -->Why Sebastian De Deyne prefers React over Vue<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 889 --> u/<!-- /react-text --><!-- react-text: 890 -->jrsinclair<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 892 -->Reddit Score:<!-- /react-text --><!-- react-text: 893 --> <!-- /react-text --><span>3</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/broa79/why_sebastian_de_deyne_prefers_react_over_vue/">Link to Comments</a></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://portswigger.net/blog/abusing-jquery-for-css-powered-timing-attacks"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 900 -->Abusing jQuery for CSS powered timing attacks<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 903 --> u/<!-- /react-text --><!-- react-text: 904 -->magenta_placenta<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 906 -->Reddit Score:<!-- /react-text --><!-- react-text: 907 --> <!-- /react-text --><span>2</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brpmdm/abusing_jquery_for_css_powered_timing_attacks/">Link to Comments</a></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://www.reddit.com/r/javascript/comments/brrz0b/code_review_group/"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 914 -->Code review group?<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 917 --> u/<!-- /react-text --><!-- react-text: 918 -->JasonHorsley_Tech<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 920 -->Reddit Score:<!-- /react-text --><!-- react-text: 921 --> <!-- /react-text --><span>1</span></span></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://forms.gle/LwAujJdHjVc8Mzw7A"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 927 -->Have An App Development Horror Story?<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 930 --> u/<!-- /react-text --><!-- react-text: 931 -->immortalcoder<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 933 -->Reddit Score:<!-- /react-text --><!-- react-text: 934 --> <!-- /react-text --><span>0</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brrtvx/have_an_app_development_horror_story/">Link to Comments</a></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="http://iobio.io/user_guides/2019/05/20/vue-js-unit-testing-with-jest/"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 941 -->Vue.js unit testing with Jest<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 944 --> u/<!-- /react-text --><!-- react-text: 945 -->addtej<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 947 -->Reddit Score:<!-- /react-text --><!-- react-text: 948 --> <!-- /react-text --><span>1</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brr0vl/vuejs_unit_testing_with_jest/">Link to Comments</a></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://www.surrealcms.com/blog/creating-a-code-beautifier-in-two-days.html"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 955 -->I created a code beautifier for HTML, CSS, and JS in two days.<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 958 --> u/<!-- /react-text --><!-- react-text: 959 -->aksival<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 961 -->Reddit Score:<!-- /react-text --><!-- react-text: 962 --> <!-- /react-text --><span>3</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/bro7pv/i_created_a_code_beautifier_for_html_css_and_js/">Link to Comments</a></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://github.com/TankerHQ/sdk-js"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 969 -->Tanker: end-to-end encryption SDK for Javascript<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 972 --> u/<!-- /react-text --><!-- react-text: 973 -->dmerej<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 975 -->Reddit Score:<!-- /react-text --><!-- react-text: 976 --> <!-- /react-text --><span>1</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brq93g/tanker_endtoend_encryption_sdk_for_javascript/">Link to Comments</a></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://2019.fullstackfest.com/"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 983 -->Full Stack Fest - 4-6 September 2019 - Sitges, Barcelona<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 986 --> u/<!-- /react-text --><!-- react-text: 987 -->txustice<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 989 -->Reddit Score:<!-- /react-text --><!-- react-text: 990 --> <!-- /react-text --><span>1</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brovqr/full_stack_fest_46_september_2019_sitges_barcelona/">Link to Comments</a></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://medium.com/@bluepnume/functional-ish-javascript-205c05d0ed08"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 997 -->Functional-ish JavaScript<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 1000 --> u/<!-- /react-text --><!-- react-text: 1001 -->jrsinclair<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 1003 -->Reddit Score:<!-- /react-text --><!-- react-text: 1004 --> <!-- /react-text --><span>1</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/broaf4/functionalish_javascript/">Link to Comments</a></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://medium.com/quick-code/test-automation-analytics-using-cube-js-e3ee0fa84981"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 1011 -->Test Automation Analytics using Cube.js<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 1014 --> u/<!-- /react-text --><!-- react-text: 1015 -->ekbduffy<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 1017 -->Reddit Score:<!-- /react-text --><!-- react-text: 1018 --> <!-- /react-text --><span>36</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brco43/test_automation_analytics_using_cubejs/">Link to Comments</a></a></li><li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://medium.com/onfido-tech/migrating-react-native-app-to-react-hooks-12915844e50"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 1025 -->Migrating React Native app to React Hooks<!-- /react-text --></h5><h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 1028 --> u/<!-- /react-text --><!-- react-text: 1029 -->ab-azure<!-- /react-text --></h6><span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 1031 -->Reddit Score:<!-- /react-text --><!-- react-text: 1032 --> <!-- /react-text --><span>1</span></span><a class="redditCommentsLink sc-gGBfsJ gEvwjl" href="http://reddit.com/r/javascript/comments/brn4ct/migrating_react_native_app_to_react_hooks/">Link to Comments</a></a></li>
-                                  <li class="themeBorder2 hasHover sc-hqyNC hiVOon"><a class="sc-jbKcbu cWSlbe" href="https://www.reddit.com/r/javascript/comments/brm4ic/reduximmer_is_used_to_create_an_equivalent/"><h5 class="themeFg18 sc-dNLxif cMMsok"><span class="themeFg12"></span><!-- react-text: 1039 -->redux-immer is used to create an equivalent function of Redux combineReducers that works with immer state.<!-- /react-text --></h5>
-                                    <h6 class="themeFg13 sc-jqCOkK dacEiH"><span class="themeFg10">Posted by:</span><!-- react-text: 1042 --> u/<!-- /react-text --><!-- react-text: 1043 -->salvoravida<!-- /react-text --></h6>
-                                    <span class="themeFg19 sc-uJMKN lasArn"><!-- react-text: 1045 -->Reddit Score:<!-- /react-text --><!-- react-text: 1046 --> <!-- /react-text --><span>0</span></span>
-                                  </a>
-                                </li>
-                                </ul>
+          <!-- social media -->
+          <ul class="list-inline">
+            <li class="list-inline-item facebook">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item linkedIn">
+              <a
+                href="https://www.linkedin.com/in/thomas-angeloni-8740873b/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="list-inline-item twitter">
+              <a href="https://twitter.com/?lang=en" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item reddit">
+              <a href="https://www.reddit.com/" target="blank">
+                <i class="fab fa-reddit-alien"></i>
+              </a>
+            </li>
+          </ul>
         </div>
-        <div class="col-lg-6 search-history">
-          <h5><i class="far fa-clock"></i> Relavant Javascript History</h5>
-          <div class="search-history">
-              <ul class="search-history-list">
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.meteor.com/"
-                    /><a class="sc-ibxdXY ihneiP" href="https://www.meteor.com/"
-                      >Build Apps with JavaScript | Meteor</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1558548016796">4 hours ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.youtube.com/watch?v=sGJ5lTu-clY"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.youtube.com/watch?v=sGJ5lTu-clY"
-                      >Q+A - How to alternate text color using JavaScript - YouTube</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1558474002437">a day ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=8434&amp;clientkey=D62F7706797AADC2B785E7DECD13D9E7"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=8434&amp;clientkey=D62F7706797AADC2B785E7DECD13D9E7"
-                      >Frontend Engineer- JavaScript</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1558459705365">a day ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.arclab.com/en/kb/htmlcss/display-date-time-javascript-php-ssi.html"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.arclab.com/en/kb/htmlcss/display-date-time-javascript-php-ssi.html"
-                      >Display Date and Time on a Webpage (javascript, php, SSI)</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1558408325407">2 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://developer.mozilla.org/en-US/docs/Archive/Add-ons/Code_snippets/Timers"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://developer.mozilla.org/en-US/docs/Archive/Add-ons/Code_snippets/Timers"
-                      >JavaScript timers - Archive of obsolete content | MDN</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1558402008339">2 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.ricocheting.com/code/javascript/html-generator/date-time-clock"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.ricocheting.com/code/javascript/html-generator/date-time-clock"
-                      >Website HTML Javascript Clock (Date and Time) |
-                      ricocheting.com</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1558401654423">2 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://github.com/bryanbraun/connect-four"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://github.com/bryanbraun/connect-four"
-                      >bryanbraun/connect-four: Connect Four, in Javascript.</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1558126603486">5 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.youtube.com/watch?v=90PgFUPIybY"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.youtube.com/watch?v=90PgFUPIybY"
-                      >Javascript Projects - Shopping Cart - YouTube</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1558025683782">6 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://simulationcorner.net/index.php?page=connectfour"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://simulationcorner.net/index.php?page=connectfour"
-                      >Connect Four in Javascript</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557964516057">7 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.youtube.com/watch?v=4AIop6P-jHE"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.youtube.com/watch?v=4AIop6P-jHE"
-                      >Learn to Code the game Connect Four in Javascript, HTML and CSS
-                      - YouTube</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557964403464">7 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://sidecar.applytojob.com/apply/MB4taL9QLE/Senior-JavaScript-Engineer"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://sidecar.applytojob.com/apply/MB4taL9QLE/Senior-JavaScript-Engineer"
-                      >Senior JavaScript Engineer - Sidecar - Career Page</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557586504984">11 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.linkedin.com/jobs/view/1180426307/?eBP=CwEAAAFqp12-KML3-Vl6YJZYCGx3DHexBTQWoq6vKDsxCpmpfCLrYTJUIXbar2N5PCj5kke-eWAV_sy5nB7ZGyhfCSVpfHxstz78tjN065zNYQznQl_ZEgF9D3zeZP7ilbhiBlIAsbI4RxMpyzBRkxwNEgpWstA_aXJahyR6946mWii7bEmkD5_RueVpix5tq39rYRrmVT2etEguugbQQdCiKK3QUX4Z9J1HSAqGgo-xVaXWwkV5cltZHnq0BLnkijtqu1KJIKFEJUg-e1hwWjcn_jdnZx9vEY5lONR3OYLxP4ntBUX6qPQtngu0U9vIxN70kVaBMKSg-m-QXhUw5MiLAeg&amp;refId=f291d88e-0de9-46ff-838d-872d94321b15&amp;trk=d_flagship3_job_home"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.linkedin.com/jobs/view/1180426307/?eBP=CwEAAAFqp12-KML3-Vl6YJZYCGx3DHexBTQWoq6vKDsxCpmpfCLrYTJUIXbar2N5PCj5kke-eWAV_sy5nB7ZGyhfCSVpfHxstz78tjN065zNYQznQl_ZEgF9D3zeZP7ilbhiBlIAsbI4RxMpyzBRkxwNEgpWstA_aXJahyR6946mWii7bEmkD5_RueVpix5tq39rYRrmVT2etEguugbQQdCiKK3QUX4Z9J1HSAqGgo-xVaXWwkV5cltZHnq0BLnkijtqu1KJIKFEJUg-e1hwWjcn_jdnZx9vEY5lONR3OYLxP4ntBUX6qPQtngu0U9vIxN70kVaBMKSg-m-QXhUw5MiLAeg&amp;refId=f291d88e-0de9-46ff-838d-872d94321b15&amp;trk=d_flagship3_job_home"
-                      >Full Stack Application Developer - JavaScript/Node | Workbridge
-                      Associates | LinkedIn</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557586126540">11 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://technical.ly/job/sidecar-senior-javascript-engineer-47160/"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://technical.ly/job/sidecar-senior-javascript-engineer-47160/"
-                      >Sidecar | Senior JavaScript Engineer - Technical.ly</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557585446325">11 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.youtube.com/watch?v=Kp3HGwlXwCk"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.youtube.com/watch?v=Kp3HGwlXwCk"
-                      >BASIC JAVASCRIPT PROJECTS - YouTube</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557522337509">12 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.youtube.com/watch?v=wc5k2AMPED0&amp;list=WL&amp;index=46&amp;t=1518s"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.youtube.com/watch?v=wc5k2AMPED0&amp;list=WL&amp;index=46&amp;t=1518s"
-                      >Simple Form Animation With Javascript Tutorial | HTML Forms |
-                      Learn Javascript - YouTube</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557498362951">12 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.youtube.com/watch?v=rRgD1yVwIvE&amp;list=WL&amp;index=34&amp;t=0s"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.youtube.com/watch?v=rRgD1yVwIvE&amp;list=WL&amp;index=34&amp;t=0s"
-                      >JavaScript Higher Order Functions &amp; Arrays - YouTube</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557445062258">13 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://gallery.mailchimp.com/c8069c95aac6dc683e656008e/files/355b0abf-4f28-4c0d-9615-6f21199b1bef/little_javascript_preview_ch7_8.pdf"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://gallery.mailchimp.com/c8069c95aac6dc683e656008e/files/355b0abf-4f28-4c0d-9615-6f21199b1bef/little_javascript_preview_ch7_8.pdf"
-                      >The Little JavaScript Book</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557436238688">13 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.youtube.com/watch?v=hdI2bqOjy3c&amp;list=WL&amp;index=20&amp;t=0s"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.youtube.com/watch?v=hdI2bqOjy3c&amp;list=WL&amp;index=20&amp;t=0s"
-                      >JavaScript Crash Course For Beginners - YouTube</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557420087367">13 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.geeksforgeeks.org/javascript-math-pow-function/"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.geeksforgeeks.org/javascript-math-pow-function/"
-                      >JavaScript | Math.pow( ) Function - GeeksforGeeks</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557335972114">14 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.youtube.com/watch?v=tcoiPHktCwQ&amp;list=WL&amp;index=39"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.youtube.com/watch?v=tcoiPHktCwQ&amp;list=WL&amp;index=39"
-                      >JavaScript Cardio [Session 3] - Add All, Sum Primes, Seek &amp;
-                      Destroy - YouTube</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557332652602">14 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.youtube.com/watch?v=FfchU1FS2IA&amp;list=WL&amp;index=38"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.youtube.com/watch?v=FfchU1FS2IA&amp;list=WL&amp;index=38"
-                      >JavaScript Cardio [Session 2] - LongestWord, Anagrams, Array
-                      Chunking - YouTube</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557329285248">14 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.youtube.com/watch?v=M2bJBuaOeOQ&amp;list=WL&amp;index=41&amp;t=0s"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.youtube.com/watch?v=M2bJBuaOeOQ&amp;list=WL&amp;index=41&amp;t=0s"
-                      >JavaScript Cardio [Session 1] - Reversals, FizzBuzz, MaxChar -
-                      YouTube</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557325403907">14 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://technical.ly/job/orthly-full-stack-javascript-engineer-47180/?utm_campaign=This%20Week%20in%20Jobs&amp;utm_source=hs_email&amp;utm_medium=email&amp;utm_content=72398052&amp;_hsenc=p2ANqtz-8lyyBZUMn5AsZsH2rHOii_OayPhke04Ayu3Y7p7NMF4JlbFAw_0NjPeO7S-1VHLbW91oAtJd_WypwkylQ2cG7SCBPtvA&amp;_hsmi=72398052"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://technical.ly/job/orthly-full-stack-javascript-engineer-47180/?utm_campaign=This%20Week%20in%20Jobs&amp;utm_source=hs_email&amp;utm_medium=email&amp;utm_content=72398052&amp;_hsenc=p2ANqtz-8lyyBZUMn5AsZsH2rHOii_OayPhke04Ayu3Y7p7NMF4JlbFAw_0NjPeO7S-1VHLbW91oAtJd_WypwkylQ2cG7SCBPtvA&amp;_hsmi=72398052"
-                      >Orthly | Full-Stack Javascript Engineer - Technical.ly</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1557239096756">15 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://github.com/TJANGEL/Ravenous_Roulette/tree/master/assets/javascript"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://github.com/TJANGEL/Ravenous_Roulette/tree/master/assets/javascript"
-                      >Ravenous_Roulette/assets/javascript at master ·
-                      TJANGEL/Ravenous_Roulette · GitHub</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1556547525873">23 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://davidwalsh.name/"
-                    /><a class="sc-ibxdXY ihneiP" href="https://davidwalsh.name/"
-                      >David Walsh Blog - JavaScript Consultant</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1556401438039">25 days ago</time></span
-                    >
-                  </li>
-                  <li class="sc-kIPQKe hWKhfd">
-                    <img
-                      class="themeBorder8 sc-eXEjpC djTjKz"
-                      src="https://www.google.com/s2/favicons?domain=https://www.w3schools.com/cert/cert_javascript.asp"
-                    /><a
-                      class="sc-ibxdXY ihneiP"
-                      href="https://www.w3schools.com/cert/cert_javascript.asp"
-                      >JavaScript Certification</a
-                    ><span class="themeFg4 sc-RefOD keREeE"
-                      ><time datetime="1556384844861">25 days ago</time></span
-                    >
-                  </li>
-                </ul>
-          </div>
-          
-          <hr />
-          <div class="row clock">
-            CLOCK
-            <p>Date/Time: <span id="datetime"></span></p>
+      </div>
+      <div class="main">
+        <div class="wrapper">
+          <div class="left">
+            <h3>hello</h3>
             <p>
-              <i class="fas fa-question"></i>
-              Did you know you can add CUSTOM LINKS to display in this section?
-              <br />
-              Open the SETTINGS panel and add the URLs of your favorites sites
-              to the 'CUSTOM LINKS' textarea.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+              voluptatem assumenda voluptate possimus temporibus illo.
             </p>
-            <button id="got-it">
-              <i class="fas fa-times-circle"></i> Got it! Don't Show me this
-              again
-            </button>
           </div>
-        </div>
-        <div class="col-lg-3 github-feed">
-          <div class="top-content">
-              <h5><i class="fab fa-github-alt"></i> GITHUB ISSUES HISTORY</h5>
-              <a href="#">switch to github</a>
+          <div class="middle">
+            <div class="reddit-feed">
+              <h3>hello</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+                voluptatem assumenda voluptate possimus temporibus illo.
+              </p>
+            </div>
+            <div class="clock">
+              <h1>CLOCK</h1>
+            </div>
           </div>
-          <div class="tabs">
-            <div id="issues">
-              <a href="#">ISSUES</a>
-              <br>
-              <i class="fas fa-caret-up"></i>
-            </div>
-            <div id="pull-requests">
-              <a href="#">Pull Requests</a>
-            </div>
-            <!-- issues -->
-            
-            <!-- pull requests -->
+          <div class="right">
+            <h3>hello</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+              voluptatem assumenda voluptate possimus temporibus illo.
+            </p>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- JS -->
-    <script src="./js/main.js"></script>
   </body>
 </html>
