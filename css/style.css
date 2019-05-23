@@ -13,6 +13,10 @@ body {
   color: #6272a4;
 }
 
+hr {
+  background: #44475a;
+}
+
 /* NAVBAR */
 .navbar {
   font-size: 13px;
@@ -214,6 +218,34 @@ i.fa-lock {
   overflow-y: scroll;
 }
 
+.search-history-list {
+  list-style: none;
+  font-size: 12px;
+}
+
+.search-history-list img {
+  border-color: green;
+  padding: 5px;
+}
+
+.search-history-list li {
+  padding: 10px;
+}
+
+.search-history-list a {
+  text-decoration: none;
+  color: #6272a4;
+}
+
+.search-history-list a:hover {
+  color: #f1fa8c;
+}
+
+.search-history-list span {
+  color: #999999;
+  float: right;
+}
+
 .search-history,
 .clock {
   height: 50vh;
@@ -233,6 +265,20 @@ i.fa-lock {
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+.clock p i {
+  background: #ffc107;
+  border-radius: 50%;
+  padding: 3px;
+  color: #282a36;
+}
+
+#got-it {
+  background: #282a36;
+  color: #ffc107;
+  border: none;
+  align-items: center;
 }
 
 /* RIGHT SECTION */
@@ -257,7 +303,21 @@ i.fa-lock {
 .github-feed .top-content h5 {
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 0;
 }
+
+.github-feed .top-content a {
+  color: #6272a4;
+  font-size: 12px;
+}
+
+/* .top-content {
+  height: 60vh;
+}
+
+.bottom-content {
+  height: 40vh;
+} */
 
 .github-feed .tabs {
   display: flex;
@@ -268,4 +328,17 @@ i.fa-lock {
 #issues a,
 #pull-requests a {
   text-transform: uppercase;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  align-content: start;
+}
+
+#issues a,
+#issues i {
+  color: #f1fa8c;
+}
+
+#pull-requests a {
+  color: #e83e8c;
 }
