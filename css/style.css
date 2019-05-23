@@ -7,7 +7,7 @@
 body {
   height: 100%;
   width: 100%;
-  background: #343a40;
+  background: #282a36;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
   color: #6272a4;
@@ -208,8 +208,27 @@ i.fa-lock {
   font-family: 'Inconsolata', monospace;
 }
 
-.reddit-feed blockquote {
-  font-size: 5px;
+.reddit-feed-list {
+  font-family: 'Inconsolata', monospace;
+  list-style: none;
+  text-align: left;
+}
+
+.reddit-feed-list a {
+  text-decoration: none;
+}
+
+.reddit-feed-list a h5 {
+  text-align: left;
+  color: #fff;
+}
+
+.reddit-feed-list a h6 {
+  color: #f1fa8c;
+}
+
+.reddit-feed-list a h6 span {
+  color: #8be9fd;
 }
 
 /* search history/clock column*/
