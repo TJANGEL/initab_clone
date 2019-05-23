@@ -21,6 +21,19 @@ hr {
   background: #44475a;
 }
 
+.wrapper {
+  display: flex;
+}
+
+.wrapper div {
+  padding: 5px;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
 /* NAVBAR */
 .navbar {
   font-size: 13px;
@@ -130,7 +143,7 @@ i.fa-lock {
 }
 
 .navbar-brand svg {
-  margin-top: 490px;
+  margin-top: 480px;
   margin-bottom: 0;
   text-align: center;
   margin-left: 10px;
@@ -142,14 +155,16 @@ i.fa-lock {
 
 .list-inline {
   margin-top: -40px;
+  margin-left: -15px;
 }
 
 .list-inline-item {
   border-radius: 50%;
-  font-size: 11px;
+  font-size: 12px;
   margin: 0;
   padding: 4px;
   text-decoration: none;
+  align-items: left;
 }
 
 /* social media */
@@ -179,19 +194,6 @@ i.fa-lock {
 }
 .reddit i {
   color: #fff;
-}
-
-.wrapper {
-  display: flex;
-}
-
-.wrapper div {
-  padding: 5px;
-}
-
-.main {
-  display: flex;
-  height: 100vh;
 }
 
 /* LEFT SECTION */
