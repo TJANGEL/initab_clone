@@ -196,7 +196,9 @@ i.fa-lock {
 }
 
 .reddit-feed {
+  height: 100vh;
   overflow-y: scroll;
+  -webkit-scrollbar: none;
 }
 
 .reddit-feed h5 {
@@ -207,6 +209,22 @@ i.fa-lock {
   text-align: center;
   font-size: 16px;
   font-weight: 100;
+}
+
+.reddit-feed-content {
+  border-left: 3px solid #44475a;
+  padding-left: 9px;
+}
+
+.reddit-feed-content:hover {
+  border-left: 3px solid #47e96d;
+}
+
+.reddit-feed-content h5 {
+  text-transform: none;
+  color: #fff;
+  text-align: left;
+  font-size: 13px;
 }
 
 /* MIDDLE SECTION */
@@ -311,11 +329,7 @@ i.fa-lock {
   font-size: 12px;
 }
 
-/* .top-content {
-  height: 60vh;
-}
-
-.bottom-content {
+/* .bottom-content {
   height: 40vh;
 } */
 
