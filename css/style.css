@@ -354,11 +354,10 @@ i.fa-lock {
   height: auto;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  /* padding: 10px; */
   margin-top: -40px;
 }
 
-.suffix {
+.clock-section p {
   font-size: 12px;
 }
 
@@ -367,6 +366,7 @@ i.fa-lock {
   color: #ffc107;
   border: none;
   align-items: center;
+  font-size: 13px;
 }
 
 /* RIGHT SECTION */
