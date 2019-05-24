@@ -376,6 +376,7 @@ i.fa-lock {
 
 .github-feed {
   text-align: center;
+  height: 100vh;
 }
 
 .github-feed h5 {
@@ -399,9 +400,10 @@ i.fa-lock {
   font-size: 12px;
 }
 
-/* .bottom-content {
-  height: 40vh;
-} */
+.top-content {
+  height: 70vh;
+  overflow-y: scroll;
+}
 
 .github-feed .tabs {
   display: flex;
@@ -423,6 +425,56 @@ i.fa-lock {
   color: #f1fa8c;
 }
 
+#issues {
+  margin-bottom: -15px;
+}
+
 #pull-requests a {
   color: #ff79c6;
+}
+
+.github-content-list {
+}
+
+.github-feed-content {
+  font-size: 12px !important;
+  border-left: 3px solid #44475a;
+  margin: 20px;
+  padding-left: 5px;
+  font-size: 13px;
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.github-feed-content:hover {
+  border-left: 3px solid #47e96d;
+}
+
+.github-feed-content .github-title {
+  text-transform: none !important;
+  color: #6272a4;
+  text-align: left !important;
+  margin-bottom: 10px;
+}
+
+.github-feed-content .github-issue {
+  color: #f1fa8c;
+  text-transform: none !important;
+  text-align: left !important;
+  margin-top: 0;
+}
+
+.github-error {
+  color: #fff;
+  text-align: left;
+}
+
+.github-content-list li {
+  list-style: none;
+}
+
+.bottom-content {
+  height: 30vh;
+  border-left: 3px solid #44475a;
 }
