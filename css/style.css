@@ -69,10 +69,10 @@ a:hover {
 
 .gists,
 .gists:hover {
-  color: #47e96d;
+  color: #50fa7b;
 }
 .gists i {
-  background: #47e96d;
+  background: #50fa7b;
   font-size: 14px;
   padding: 3px;
   border-radius: 2px;
@@ -81,10 +81,10 @@ a:hover {
 
 .stackOverflow,
 .stackOverflow:hover {
-  color: #ffc107;
+  color: #ffb86c;
 }
 .stackOverflow i {
-  background: #ffc107;
+  background: #ffb86c;
   font-size: 14px;
   padding: 3px;
   border-radius: 2px;
@@ -105,10 +105,10 @@ a:hover {
 
 .scratchPad,
 .scratchPad:hover {
-  color: #6f42c1;
+  color: #bd93f9;
 }
 .scratchPad i {
-  background: #6f42c1;
+  background: #bd93f9;
   font-size: 14px;
   padding: 3px;
   border-radius: 2px;
@@ -133,10 +133,10 @@ i.fa-lock {
 
 .help,
 .help:hover {
-  color: #f1fa8c;
+  color: #e6db74;
 }
 .help i {
-  background: #f1fa8c;
+  background: #e6db74;
   font-size: 14px;
   padding: 3px;
   border-radius: 2px;
@@ -151,7 +151,7 @@ i.fa-lock {
 }
 
 .navbar-brand svg:hover {
-  fill: #f1fa8c;
+  fill: #e6db74;
 }
 
 .list-inline {
@@ -229,7 +229,7 @@ i.fa-lock {
 }
 
 .reddit-feed-content:hover {
-  border-left: 3px solid #47e96d;
+  border-left: 3px solid #50fa7b;
 }
 
 .reddit-feed-content h5 {
@@ -250,7 +250,7 @@ i.fa-lock {
 }
 
 .reddit-feed-list a h6 {
-  color: #f1fa8c;
+  color: #e6db74;
 }
 
 .reddit-feed-list a h6 span {
@@ -288,7 +288,7 @@ i.fa-lock {
 }
 
 .search-history-list img {
-  border-color: green;
+  border-color: #50fa7b;
   padding: 5px;
 }
 
@@ -332,7 +332,7 @@ i.fa-lock {
 }
 
 .clock-section p i {
-  background: #ffc107;
+  background: #ffb86c;
   border-radius: 50%;
   padding: 3px;
   color: #282a36;
@@ -366,7 +366,7 @@ i.fa-lock {
 
 #got-it {
   background: #282a36;
-  color: #ffc107;
+  color: #ffb86c;
   border: none;
   align-items: center;
   font-size: 13px;
@@ -428,7 +428,7 @@ i.fa-lock {
 
 #issues a,
 #issues i {
-  color: #f1fa8c;
+  color: #e6db74;
 }
 
 #issues {
@@ -465,7 +465,7 @@ i.fa-lock {
 }
 
 .github-feed-content .github-issue {
-  color: #f1fa8c;
+  color: #e6db74;
   text-transform: none !important;
   text-align: left !important;
   margin-top: 0;
@@ -490,5 +490,5 @@ i.fa-lock {
 }
 
 .github-repo-link:hover {
-  color: #ffc107;
+  color: #ffb86c;
 }
