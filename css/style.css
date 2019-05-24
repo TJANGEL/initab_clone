@@ -478,3 +478,11 @@ i.fa-lock {
   height: 30vh;
   border-left: 3px solid #44475a;
 }
+
+.github-repo-link {
+  color: #6272a4;
+}
+
+.github-repo-link:hover {
+  color: #ffc107;
+}
