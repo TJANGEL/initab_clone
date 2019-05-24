@@ -41,6 +41,7 @@ hr {
   background: #44475a;
   font-weight: 100;
   flex: 1;
+  flex-direction: column;
 }
 
 .nav li {
@@ -202,7 +203,7 @@ i.fa-lock {
 }
 
 .reddit-feed {
-  height: 100vh;
+  height: 100%;
   overflow-y: scroll;
   -webkit-scrollbar: none;
 }
@@ -272,6 +273,8 @@ i.fa-lock {
 
 /* MIDDLE SECTION */
 .middle {
+  display: flex;
+  flex-direction: column;
   flex: 2;
 }
 
@@ -376,7 +379,9 @@ i.fa-lock {
 
 .github-feed {
   text-align: center;
-  height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .github-feed h5 {
@@ -401,7 +406,7 @@ i.fa-lock {
 }
 
 .top-content {
-  height: 70vh;
+  height: 80vh;
   overflow-y: scroll;
 }
 
@@ -409,6 +414,7 @@ i.fa-lock {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 12px;
 }
 
 #issues a,
@@ -433,8 +439,8 @@ i.fa-lock {
   color: #ff79c6;
 }
 
-.github-content-list {
-}
+/* .github-content-list {
+} */
 
 .github-feed-content {
   font-size: 12px !important;
@@ -475,7 +481,7 @@ i.fa-lock {
 }
 
 .bottom-content {
-  height: 30vh;
+  height: 20vh;
   border-left: 3px solid #44475a;
 }
 
