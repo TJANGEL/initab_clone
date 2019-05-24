@@ -230,6 +230,7 @@ i.fa-lock {
 
 .reddit-feed-content:hover {
   border-left: 3px solid #50fa7b;
+  transition: ease-in-out 0.5s;
 }
 
 .reddit-feed-content h5 {
@@ -288,7 +289,7 @@ i.fa-lock {
 }
 
 .search-history-list img {
-  border-color: #50fa7b;
+  border-color: green;
   padding: 5px;
 }
 
@@ -455,6 +456,7 @@ i.fa-lock {
 
 .github-feed-content:hover {
   border-left: 3px solid #47e96d;
+  transition: ease-in-out 0.5s;
 }
 
 .github-feed-content .github-title {
